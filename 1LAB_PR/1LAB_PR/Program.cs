@@ -1,12 +1,13 @@
-﻿using System;
+using System;
 
-namespace _1LAB_PR
+namespace schet
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SCHET Schet = new SCHET();
+            Console.ReadLine();
         }
     }
 }
