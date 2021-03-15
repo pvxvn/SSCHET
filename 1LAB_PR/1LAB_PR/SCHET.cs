@@ -1,10 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
-namespace _1LAB_PR
+namespace schet
 {
     class SCHET
     {
+        public string Name { get; set; }
+        public int Number{ get; set; }
+        public double Sum { get; set; }
+
+        public SCHET()
+        {
+
+        }
     }
 }
